@@ -8,8 +8,8 @@ public:
 	// 이곳에 코드 작성
 	int getMinus(int first, int second) {
 		int result = first - second;
-		if (first < second && result > first);
-		std::cout << "possibly underflow, please check the value range of operand type.\n";
+		if (first < second && result > first)
+			std::cout << "possibly underflow, please check the value range of operand type.\n";
 		return result;
 	}
 };
