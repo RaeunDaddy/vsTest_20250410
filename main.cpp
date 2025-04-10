@@ -7,9 +7,9 @@ public:
 	int getDivide(int a, int b) {
 		if (b == 0)
 		{
-            std::cout << "b should be not 0\n";
+			std::cout << "b should be not 0\n";
 
-            return 0;
+			return 0;
 		}
 
 		return a / b; 
